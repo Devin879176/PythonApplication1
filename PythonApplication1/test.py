@@ -2,15 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-#print("hello world!")
+print("hello world!")
 
-#plt.xlabel('CNN Layer')
-#plt.ylabel('Accurate')
-#plt.xticks(np.arange(1, 17, 1))
-#x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
-#y = [0.62, 0.70, 0.73, 0.78, 0.82, 0.86, 0.93, 0.97, 0.97, 0.945, 0.92, 0.90, 0.89, 0.87, 0.86, 0.858]
-#plt.plot(x, y, '-o')
-#plt.show()
+plt.xlabel('CNN Layer')
+plt.ylabel('Accurate')
+plt.xticks(np.arange(1, 17, 1))
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+y = [0.62, 0.70, 0.73, 0.78, 0.82, 0.86, 0.93, 0.97, 0.97, 0.945, 0.92, 0.90, 0.89, 0.87, 0.86, 0.858]
+plt.plot(x, y, '-o')
+plt.show()
 
 # plt.xlabel('Number of sketch samples')
 # plt.ylabel('Accurate')
